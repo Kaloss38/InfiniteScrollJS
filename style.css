@@ -1,0 +1,24 @@
+#infinite-list {
+  /* We need to limit the height and show a scrollbar */
+  width: 98%;
+  height: 600px;
+  overflow: auto;
+
+  /* Optional, only to check that it works with margin/padding */
+  
+  padding: 20px;
+}
+
+/* Optional eye candy below: */
+li {
+  padding: 10px;
+  list-style-type: none;
+}
+li:hover {
+  background: #ccc;
+}
+
+#title_content{
+  margin: auto;
+  text-align: center;
+}
